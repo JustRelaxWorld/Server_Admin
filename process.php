@@ -6,7 +6,7 @@ $username = "";
 $errors = array();
 
 // Connect to the database
-$db = mysqli_connect('localhost', 'root', '', 'cafe'); // Fix: added database name in correct place
+$db = mysqli_connect('localhost', 'cafe_user', 'Pass123', 'cafe');
 
 // REGISTER USER
 if (isset($_POST['reg_user'])) {
